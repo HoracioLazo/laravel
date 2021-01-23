@@ -176,7 +176,7 @@
       <div class="col-lg-8 col-md-8 col-sm-8">
         <div class="left_content">
           <div class="single_post_content">
-            <h2><span>Las Titulars</span></h2>
+            <h2><span>Los Titulares</span></h2>
             <div class="single_post_content_left">
               <ul class="business_catgnav  wow fadeInDown">
                 <li>
