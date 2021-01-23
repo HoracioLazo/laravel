@@ -1,0 +1,527 @@
+  <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-5">
+                <!-- PANEL: Site Visits Line Chart -->
+                <div class="panel">
+
+                    <!-- Panel Heading -->
+                    <div class="panel-heading">
+
+                        <!-- Panel Title -->
+                        <div class="panel-title">Visitas al sitio</div>
+                        <!-- /Panel Title -->
+
+                    </div>
+                    <!-- /Panel Heading -->
+
+                    <!-- Panel Body -->
+                    <div class="panel-body">
+                        <div class="canvas-holder">
+                            <canvas id="demo-chart-line" width="100" height="60"></canvas>
+                        </div>
+                        <div class="row mt-0p5 text-center">
+                            <div class="col-xs-4">
+                                <i class="icon-theme icon-theme-sm fas fa-chart-line icon-dark"></i> Current Week
+                                <div class="mt-0p5 rate rate-up">18.7</div>
+                            </div>
+                            <div class="col-xs-4">
+                                <i class="icon-theme icon-theme-sm fas fa-chart-line icon-info"></i> Last Week
+                                <div class="mt-0p5 rate rate-down">1.7</div>
+                            </div>
+                            <div class="col-xs-4">
+                                <i class="icon-theme icon-theme-sm fas fa-chart-line icon-danger"></i> Target
+                                <div class="mt-0p5 rate rate-up">4.8</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Panel Body -->
+
+                </div>
+                <!-- /PANEL: Site Visits Line Chart -->
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-3">
+
+                <!-- CardBox Inline: Desktop -->
+                <div class="card-box-inline bg-primary mb-0p5">
+                    <i class="icon fas fa-desktop"></i>
+                    <span class="text">Desktop</span>
+                    <div class="value rate rate-up">92.9</div>
+                </div>
+                <!-- /CardBox Inline: Desktop -->
+
+                <!-- CardBox Inline: Mobile -->
+                <div class="card-box-inline bg-primary mb-0p5">
+                    <i class="icon fas fa-mobile-alt"></i>
+                    <span class="text">Mobile</span>
+                    <div class="value rate rate-up">6.08</div>
+                </div>
+                <!-- /CardBox Inline: Mobile -->
+
+                <!-- CardBox Inline: Tablet -->
+                <div class="card-box-inline bg-primary mb-0p5">
+                    <i class="icon fas fa-tablet-alt"></i>
+                    <span class="text">Tablet</span>
+                    <div class="value rate rate-down">0.98</div>
+                </div>
+                <!-- /CardBox Inline: Tablet -->
+
+                <!-- PANEL: Social Chart -->
+                <div class="panel">
+                    <div class="panel-body">
+                        <div class="canvas-holder">
+                            <canvas id="socials-doughnut" width="80" height="50"></canvas>
+                        </div>
+                        <div class="progress-list">
+
+                            <!-- Progress Element -->
+                            <div class="progress mb-0p5">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="64"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 64%;">64%</div>
+                            </div>
+                            <!-- /Progress Element -->
+
+                            <!-- Progress Element -->
+                            <div class="progress mb-0p5">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="53"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 53%;">53%</div>
+                            </div>
+                            <!-- /Progress Element -->
+
+                            <!-- Progress Element -->
+                            <div class="progress no-mb">
+                                <div class="progress-bar progress-bar-info" role="progressbar"
+                                     aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">75%</div>
+                            </div>
+                            <!-- /Progress Element -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /PANEL: Social Chart -->
+
+            </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <!-- PANEL: Users -->
+                <div class="panel panel-users">
+
+                    <!-- Panel Heading -->
+                    <div class="panel-heading">
+
+                        <!-- Panel Title-->
+                        <div class="panel-title">Usuarios</div>
+                        <!-- /Panel Title-->
+
+                        <!-- Panel Controls -->
+                        <div class="panel-controls">
+                            <ul class="panel-buttons">
+                                <li><a href="#" class="btn-panel-control icon fas fa-plus"></a></li>
+                            </ul>
+                        </div>
+                        <!-- /Panel Controls -->
+
+                    </div>
+                    <!-- /Panel Heading -->
+
+                    <!-- Panel Body -->
+                    <div class="panel-body">
+
+                        <!-- Scrollable -->
+                        <div class="custom-scroll" style="height: 345px;">
+
+                            <!-- TABLE: Users -->
+                            <table class="table table-responsive users-table">
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Benjamin Jacobs</a>
+                                        <div class="post">Director</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                        </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-deborah-young.jpg" alt="Deborah Young">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Deborah Young</a>
+                                        <div class="post">Animation Designer</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                        </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-louis-hawkins.jpg" alt="Louis Hawkins">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Louis Hawkins</a>
+                                        <div class="post">Marketing Director</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                        </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-ashley-warren.jpg" alt="Ashley Warren">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Ashley Warren</a>
+                                        <div class="post">Account Manager</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                       </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-christopher-tucker.jpg" alt="Christopher Tucker">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Christopher Tucker</a>
+                                        <div class="post">Director</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                       </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-lori-harrison.jpg" alt="Lori Harrison">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Lori Harrison</a>
+                                        <div class="post">Animation Designer</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                        </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-phillip-cole.jpg" alt="Phillip Cole">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Phillip Cole</a>
+                                        <div class="post">Marketing Director</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                       </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-ann-james.jpg" alt="Ann James">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Ann James</a>
+                                        <div class="post">Account Manager</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                        </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-tyler-brewer.jpg" alt="Tyler Brewer">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Tyler Brewer</a>
+                                        <div class="post">Account Manager</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                       </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-eric-martinez.jpg" alt="Eric Martinez">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Eric Martinez</a>
+                                        <div class="post">Account Manager</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                       </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-karen-garcia.jpg" alt="Karen Garcia">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Karen Garcia</a>
+                                        <div class="post">Animation Designer</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                       </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-susan-estrada.jpg" alt="Susan Estrada">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Susan Estrada</a>
+                                        <div class="post">Animation Designer</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                       </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-joshua-ward.jpg" alt="Joshua Ward">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Joshua Ward</a>
+                                        <div class="post">Animation Designer</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fab fa-facebook-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fab fa-twitter-square"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fab fa-google-plus-square"></a></li>
+                                       </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                                <!-- ROW: User -->
+                                <tr class="user">
+                                    <td class="user-avatar">
+                                        <!-- User Avatar -->
+                                        <div class="avatar image">
+                                            <img src="images/avatar-louis-mendoza.jpg" alt="Louis Mendoza">
+                                        </div>
+                                        <!-- /User Avatar -->
+                                    </td>
+                                    <td>
+                                        <!-- User Info -->
+                                        <a href="#" class="name">Louis Mendoza</a>
+                                        <div class="post">Account Manager</div>
+                                        <!-- /User Info -->
+                                    </td>
+                                    <td>
+                                        <!-- User Buttons -->
+                                        <ul class="inline-icons">
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-facebook fa fa-facebook"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-twitter fa fa-twitter"></a></li>
+                                            <li><a href="#" class="icon-theme icon-theme-xs icon-brand-googleplus fa fa-google-plus"></a></li>
+                                        </ul>
+                                        <!-- /User Buttons -->
+                                    </td>
+                                </tr>
+                                <!-- /ROW: User -->
+
+                            </table>
+                            <!-- /TABLE: Users -->
+                        </div>
+                        <!-- /Scrollable -->
+
+                    </div>
+                    <!-- /Panel Body -->
+
+                </div>
+                <!-- /PANEL: Users -->
+            </div>
+
+        </div>

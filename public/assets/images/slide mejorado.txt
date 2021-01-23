@@ -1,0 +1,41 @@
+<section class="awSlider">
+        <div class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target=".carousel" data-slide-to="0" class="active"></li>
+                <li data-target=".carousel" data-slide-to="1"></li>
+                <li data-target=".carousel" data-slide-to="2"></li>
+                <li data-target=".carousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/añoviejo.jpg">
+                    <div class="carousel-caption">añoviejo</div>
+                </div>
+                <div class="item">
+                    <img src="images/frenteiglesia.jpg">
+                    <div class="carousel-caption">Frente Iglesia</div>
+                </div>
+                <div class="item">
+                    <img src="images/estatuamadre.jpg">
+                    <div class="carousel-caption">estatuamadre</div>
+                </div>
+                <div class="item">
+                    <img src="images/finaño.jpg">
+                    <div class="carousel-caption">finaño.</div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Geri</span>
+            </a>
+            <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">İleri</span>
+            </a>
+        </div>
+    </section>

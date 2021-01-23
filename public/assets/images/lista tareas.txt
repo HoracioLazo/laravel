@@ -1,0 +1,1306 @@
+   <div class="row">
+
+            <!-- Left Side -->
+            <div class="col-xs-12 col-md-8">
+
+                <div class="row">
+
+                    <!-- Tasks -->
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+
+                        <!-- PANEL: Tasks -->
+                        <div class="panel panel-tasks">
+
+                            <!-- Panel heading -->
+                            <div class="panel-heading">
+
+                                <!-- Panel title -->
+                                <div class="panel-title">Lista Tareas</div>
+                                <!-- /Panel title -->
+
+                                <!-- Panel controls -->
+                                <div class="panel-controls">
+                                    <ul class="panel-buttons">
+                                        <li><a href="#" class="btn-panel-control icon fas fa-plus"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /Panel controls -->
+
+                            </div>
+                            <!-- Panel /heading -->
+
+                            <!-- Panel body -->
+                            <div class="panel-body">
+
+                                <!-- Task list -->
+                                <ul class="list-group list-group-dropdown cover">
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-info">
+                                            <input type="checkbox" id="task-01" class="task-control">
+                                            <label for="task-01" class="task-label">
+                                                <i class="icon fa fa-phone"></i>
+                                                <span class="task-text">Call to Mary</span>
+                                                <span class="label label-info">today</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item task-completed">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-danger">
+                                            <input type="checkbox" id="task-02" class="task-control" checked>
+                                            <label for="task-02" class="task-label">
+                                                <i class="icon fa fa-shopping-cart"></i>
+                                                <span class="task-text">Buy milk on the way home</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item task-completed">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-warning">
+                                            <input type="checkbox" id="task-03" class="task-control" checked>
+                                            <label for="task-03" class="task-label">
+                                                <i class="icon fa fa-check"></i>
+                                                <span class="task-text">Finish the previous task</span>
+                                                <span class="label label-danger">important</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-success">
+                                            <input type="checkbox" id="task-04" class="task-control">
+                                            <label for="task-04" class="task-label">
+                                                <i class="icon fa fa-home"></i>
+                                                <span class="task-text">Go to home</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-primary">
+                                            <input type="checkbox" id="task-05" class="task-control">
+                                            <label for="task-05" class="task-label">
+                                                <i class="icon fa fa-check-circle-o"></i>
+                                                <span class="task-text">Finish the current template</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-info">
+                                            <input type="checkbox" id="task-06" class="task-control">
+                                            <label for="task-06" class="task-label">
+                                                <i class="icon fas fa-pencil-alt"></i>
+                                                <span class="task-text">Write documentation</span>
+                                                <span class="label label-success">well</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-primary">
+                                            <input type="checkbox" id="task-07" class="task-control">
+                                            <label for="task-07" class="task-label">
+                                                <i class="icon fa fa-bar-chart-o"></i>
+                                                <span class="task-text">Make statistics block</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-warning">
+                                            <input type="checkbox" id="task-08" class="task-control">
+                                            <label for="task-08" class="task-label">
+                                                <i class="icon fa fa-pencil"></i>
+                                                <span class="task-text">Add element to this list</span>
+                                                <span class="label label-warning">orange</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                    <!-- Task item -->
+                                    <li class="list-group-item task-completed">
+
+                                        <!-- Task content -->
+                                        <div class="custom-checkbox custom-checkbox-inline custom-checkbox-danger">
+                                            <input type="checkbox" id="task-09" class="task-control" checked>
+                                            <label for="task-09" class="task-label">
+                                                <i class="icon fa fa-check-circle"></i>
+                                                <span class="task-text">Finish list</span>
+                                            </label>
+                                        </div>
+                                        <!-- /Task content -->
+
+                                        <!-- Task dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-check-square-o"></i> Finish</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Task dropdown menu -->
+
+                                    </li>
+                                    <!-- /Task item -->
+
+                                </ul>
+                                <!-- Task list -->
+
+                            </div>
+                            <!-- /Panel body -->
+
+                            <!-- Panel footer -->
+                            <div class="panel-footer">
+                                <a href="#"><i class="icon fas fa-arrow-circle-down"></i> Show Tasks</a>
+                            </div>
+                            <!-- /Panel footer -->
+
+                        </div>
+                        <!-- /PANEL: Tasks -->
+
+                    </div>
+                    <!-- /Tasks -->
+
+                    <!-- Current Activities -->
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+
+                        <!-- PANEL: Current Activities -->
+                        <div class="panel panel-activities">
+
+                            <!-- Panel heading -->
+                            <div class="panel-heading">
+
+                                <!-- Panel title -->
+                                <div class="panel-title">ACTIVIDADES ACTUALES</div>
+                                <!-- /Panel title -->
+
+                                <!-- Panel controls -->
+                                <div class="panel-controls">
+                                    <ul class="panel-buttons">
+                                        <li class="dropdown">
+                                            <a href="#" class="btn-panel-control icon far fa-fw fa-circle-thin dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></a>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <a href="#"><i class="icon fas fa-arrow-circle-down"></i> Show Tasks</a>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- /Panel controls -->
+
+                            </div>
+                            <!-- /Panel heading -->
+
+                            <!-- Panel body -->
+                            <div class="panel-body">
+
+                                <!-- Activities list -->
+                                <ul class="list-group list-group-dropdown cover">
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-gray fas fa-sign-in-alt"></i> <a href="#">Louis Hawkins</a> is logged in
+                                        <span class="label label-default activity-date">now</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-info fas fa-info"></i> The CS has been successfully updated
+                                        <span class="label label-default activity-date">2m ago</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-gray fas fa-pencil-alt"></i> Article X was successfully edited
+                                        <span class="label label-default activity-date">12m ago</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-danger fas fa-warning"></i> On the main disk runs out of space
+                                        <span class="label label-default activity-date">2h ago</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fas fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fas fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-gray fas fa-sign-in-alt"></i> <a href="#">Ashley Warren</a> is logged in
+                                        <span class="label label-default activity-date">2h ago</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-warning fa fa-warning"></i> Please check the mail settings
+                                        <span class="label label-default activity-date">7h ago</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-success fa fa-dollar"></i> Transfer in the amount of $1.27k
+                                        <span class="label label-default activity-date">2d ago</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-primary fa fa-envelope"></i> You have 73 new messages
+                                        <span class="label label-default activity-date">2d ago</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+                                    <!-- Activity -->
+                                    <li class="list-group-item">
+
+                                        <!-- Activity content -->
+                                        <i class="icon icon-theme icon-theme-xs icon-primary fa fa-line-chart"></i> New reports have been generated
+                                        <span class="label label-default activity-date">2d ago</span>
+                                        <!-- /Activity content -->
+
+                                        <!-- Activity dropdown menu -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <i class="icon fa fa-fw fa-gears"></i> <i class="icon fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon fa fa-times"></i> Hide</a></li>
+                                                <li><a href="#"><i class="icon fa fa-trash-o"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Activity dropdown menu -->
+                                    </li>
+                                    <!-- /Activity -->
+
+                                </ul>
+                                <!-- /Activities list -->
+
+                            </div>
+                            <!-- /Panel body -->
+
+                            <!-- Panel footer -->
+                            <div class="panel-footer ">
+                                <a href="#"><i class="icon fa fa-arrow-circle-o-down"></i> Show All Activities</a>
+                            </div>
+                            <!-- /Panel footer -->
+
+                        </div>
+                        <!-- /PANEL: Current Activities -->
+
+                    </div>
+                    <!-- /Current Activities -->
+
+                </div>
+
+                <div class="row">
+
+                    <!-- Fast Actions -->
+                    <div class="col-xs-12">
+
+                        <!-- PANEL: Fast Actions -->
+                        <div class="panel">
+
+                            <!-- Panel heading -->
+                            <div class="panel-heading">
+
+                                <!-- Panel title -->
+                                <div class="panel-title">Fast Actions</div>
+                                <!-- /Panel title -->
+
+                                <!-- Panel controls -->
+                                <div class="panel-controls">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active">
+                                            <a href="#fast-actions-pending" aria-controls="fast-actions-pending" role="tab" data-toggle="tab">Pending</a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#fast-actions-completed" aria-controls="fast-actions-completed" role="tab" data-toggle="tab">Completed</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Panel controls -->
+
+                            </div>
+                            <!-- /Panel heading -->
+
+                            <!-- Panel body -->
+                            <div class="panel-body">
+
+                                <div class="tab-content">
+
+                                    <!-- TAB PANE Products table -->
+                                    <div id="fast-actions-pending" role="tabpanel" class="tab-pane fade in active">
+
+                                        <!-- TABLE: Pending -->
+                                        <div class="table-responsive">
+                                            <table class="table no-mb">
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Benjamin Jacobs</div>
+                                                        <p class="no-mb">
+                                                            There are many variations of passages.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        09:03&nbsp;AM
+                                                        <div class="small text-muted">TUE,&nbsp;06/12/2017</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="btn-group btn-group-nowrap" role="group">
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-success">Approve</button>
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-danger">Reject</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-ashley-warren.jpg" alt="Ashley Warren">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Ashley Warren</div>
+                                                        <p class="no-mb">
+                                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        09:45&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="btn-group btn-group-nowrap" role="group">
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-success">Approve</button>
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-danger">Reject</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Benjamin Jacobs</div>
+                                                        <p class="no-mb">
+                                                            Many desktop publishing packages and web page editors now use.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        07:24&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="btn-group btn-group-nowrap" role="group">
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-success">Approve</button>
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-danger">Reject</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-deborah-young.jpg" alt="Deborah Young">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Deborah Young</div>
+                                                        <p class="no-mb">
+                                                            The generated Lorem Ipsum is therefore always free from repetition.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        07:18&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="btn-group btn-group-nowrap" role="group">
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-success">Approve</button>
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-danger">Reject</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-louis-hawkins.jpg" alt="Louis Hawkins">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Louis Hawkins</div>
+                                                        <p class="no-mb">
+                                                            The standard chunk of Lorem Ipsum used since the 1500s.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        04:59&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="btn-group btn-group-nowrap" role="group">
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-success">Approve</button>
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-danger">Reject</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-ashley-warren.jpg" alt="Ashley Warren">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Ashley Warren</div>
+                                                        <p class="no-mb">
+                                                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        03:07&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="btn-group btn-group-nowrap" role="group">
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-success">Approve</button>
+                                                            <button type="button" class="btn btn-sm btn-o btn-rounded btn-danger">Reject</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                            </table>
+                                        </div>
+                                        <!-- /TABLE: Pending -->
+
+                                    </div>
+                                    <!-- /TAB PANE: Products table -->
+
+                                    <!-- TAB PANE Products chart -->
+
+                                    <div id="fast-actions-completed" role="tabpanel" class="tab-pane fade">
+
+                                        <!-- TABLE: Completed -->
+                                        <div class="table-responsive">
+                                            <table class="table table-responsive no-mb">
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Benjamin Jacobs</div>
+                                                        <p class="no-mb">
+                                                            There are many variations of passages.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        09:03&nbsp;AM
+                                                        <div class="small text-muted">TUE,&nbsp;06/12/2017</div>
+                                                    </td>
+                                                    <td class="col-minimal">
+                                                        <label class="badge badge-success"><i class="icon fa fa-check"></i> Approved</label>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-ashley-warren.jpg" alt="Ashley Warren">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Ashley Warren</div>
+                                                        <p class="no-mb">
+                                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        09:45&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td class="col-minimal">
+                                                        <label class="badge badge-danger"><i class="icon fa fa-times"></i> Rejected</label>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Benjamin Jacobs</div>
+                                                        <p class="no-mb">
+                                                            Many desktop publishing packages and web page editors now use.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        07:24&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td class="col-minimal">
+                                                        <label class="badge badge-success"><i class="icon fa fa-check"></i> Approved</label>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-deborah-young.jpg" alt="Deborah Young">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Deborah Young</div>
+                                                        <p class="no-mb">
+                                                            The generated Lorem Ipsum is therefore always free from repetition.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        07:18&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td class="col-minimal">
+                                                        <label class="badge badge-success"><i class="icon fa fa-check"></i> Approved</label>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-louis-hawkins.jpg" alt="Louis Hawkins">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Louis Hawkins</div>
+                                                        <p class="no-mb">
+                                                            The standard chunk of Lorem Ipsum used since the 1500s.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        04:59&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td class="col-minimal">
+                                                        <label class="badge badge-danger"><i class="icon fa fa-times"></i> Rejected</label>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                                <!-- Action Row -->
+                                                <tr>
+                                                    <td class="col-minimal">
+                                                        <div class="avatar avatar-lg">
+                                                            <img src="images/avatar-ashley-warren.jpg" alt="Ashley Warren">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="strong text-dark">Ashley Warren</div>
+                                                        <p class="no-mb">
+                                                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        03:07&nbsp;PM
+                                                        <div class="small text-muted">MON,&nbsp;05/12/2017</div>
+                                                    </td>
+                                                    <td class="col-minimal">
+                                                        <label class="badge badge-success"><i class="icon fa fa-check"></i> Approved</label>
+                                                    </td>
+                                                </tr>
+                                                <!-- /Action Row -->
+
+                                            </table>
+                                        </div>
+                                        <!-- /TABLE: Completed -->
+
+                                    </div>
+                                    <!-- /TAB PANE: Products chart -->
+
+                                </div>
+
+                            </div>
+                            <!-- Panel body -->
+
+                        </div>
+                        <!-- /PANEL: Fast Actions -->
+
+                    </div>
+                    <!-- /Fast Actions -->
+
+                </div>
+
+            </div>
+            <!-- /Left Side -->
+
+            <!-- Right Side -->
+            <div class="col-xs-12 col-md-4">
+
+                <!-- PANEL: Chat -->
+                <div class="panel panel-chat">
+
+                    <!-- Panel Heading -->
+                    <div class="panel-heading">
+
+                        <!-- Panel Title -->
+                        <div class="panel-title">Chat</div>
+                        <!-- /Panel Title -->
+
+                    </div>
+                    <!-- /Panel Heading -->
+
+                    <!-- Panel Body -->
+                    <div class="panel-body">
+
+                        <!-- Chat Box -->
+                        <div class="chat-box">
+
+                            <!-- Chat Wrapper -->
+                            <div class="message-wrapper custom-scroll" style="height: 338px;">
+
+                                <!-- Message Date Delimiter -->
+                                <div class="date-delimiter mt">yesterday • 12:30&nbsp;am</div>
+                                <!-- /Message Date Delimiter -->
+
+                                <!-- Message Block -->
+                                <div class="message">
+                                    <div class="image avatar">
+                                        <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                    </div>
+                                    <div class="message-row">
+                                        <div class="message-box">
+                                            It is a long established fact that a reader will be distracted.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Message Block -->
+
+                                <!-- /Message Block -->
+                                <div class="message message-inbox">
+                                    <div class="image avatar">
+                                        <img src="images/avatar-louis-hawkins.jpg" alt="Louis Hawkins">
+                                    </div>
+                                    <div class="message-row">
+                                        <div class="message-box">
+                                            Contrary to popular belief, Lorem Ipsum.
+                                        </div>
+                                    </div>
+                                    <div class="message-row">
+                                        <div class="message-box">
+                                            There are many variations.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Message Block -->
+
+                                <!-- Message Block -->
+                                <div class="message">
+                                    <div class="image avatar">
+                                        <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                    </div>
+                                    <div class="message-row">
+                                        <div class="message-box">
+                                            The standard chunk of Lorem Ipsum used since the 1500s.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Message Block -->
+
+                                <!-- Message Block -->
+                                <div class="message message-inbox">
+                                    <div class="image avatar">
+                                        <img src="images/avatar-louis-hawkins.jpg" alt="Louis Hawkins">
+                                    </div>
+                                    <div class="message-row">
+                                        <div class="message-box">
+                                            It uses a dictionary of over 200 Latin words, combined with a handful.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Message Block -->
+
+                                <!-- Message Block -->
+                                <div class="message">
+                                    <div class="image avatar">
+                                        <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                    </div>
+                                    <div class="message-row">
+                                        <div class="message-box">
+                                            The generated Lorem Ipsum is therefore always free.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Message Block -->
+
+                                <!-- Message Date Delimiter -->
+                                <div class="date-delimiter">today • 11:27&nbsp;pm</div>
+                                <!-- /Message Date Delimiter -->
+
+                                <!-- Message Block -->
+                                <div class="message message-inbox">
+                                    <div class="image avatar">
+                                        <img src="images/avatar-louis-hawkins.jpg" alt="Louis Hawkins">
+                                    </div>
+                                    <div class="message-row">
+                                        <div class="message-box">
+                                            It uses a dictionary of over 200 Latin words, combined with a handful.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Message Block -->
+
+                                <!-- Message Block -->
+                                <div class="message">
+                                    <div class="image avatar">
+                                        <img src="images/avatar-benjamin-jacobs.jpg" alt="Benjamin Jacobs">
+                                    </div>
+                                    <div class="message-row">
+                                        <div class="message-box">
+                                            The generated Lorem Ipsum is therefore always free.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Message Block -->
+                            </div>
+                            <!-- /Chat Wrapper -->
+
+                            <!-- Chat Bottom -->
+                            <div class="chat-bottom">
+                                <div class="input-group">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default"><i class="icon fas fa-camera"></i></button>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Type your message here...">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default"><i class="icon fas fa-paper-plane"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Chat Bottom -->
+
+                        </div>
+                        <!-- /Chat Box -->
+
+                    </div>
+                    <!-- /Panel Body -->
+
+                </div>
+                <!-- /PANEL: Chat -->
+
+                <!-- PANEL: Progress -->
+                <div class="panel">
+
+                    <!-- Panel Heading -->
+                    <div class="panel-heading">
+
+                        <!-- Panel Title -->
+                        <div class="panel-title">Current progress</div>
+                        <!-- /Panel Title -->
+
+                        <!-- Panel Controls -->
+                        <div class="panel-controls">
+                            <ul class="panel-buttons">
+                                <li><a href="#" class="btn-panel-control icon fa fa-refresh"></a></li>
+                            </ul>
+                        </div>
+                        <!-- /Panel Controls -->
+
+                    </div>
+                    <!-- /Panel Heading -->
+
+                    <!-- Panel Body -->
+                    <div class="panel-body">
+
+                        <!-- Progress Element -->
+                        <div class="progress-labeled">
+                            <div class="title"> Grid system <span>80%</span></div>
+                            <div class="progress">
+                                <div style="width: 80%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80"
+                                     role="progressbar" class="progress-bar"></div>
+                            </div>
+                        </div>
+                        <!-- /Progress Element -->
+
+                        <!-- Progress Element -->
+                        <div class="progress-labeled">
+                            <div class="title"> Panel elements &amp; jQuery <span>85%</span></div>
+                            <div class="progress">
+                                <div style="width: 85%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85"
+                                     role="progressbar" class="progress-bar progress-bar-success"></div>
+                            </div>
+                        </div>
+                        <!-- /Progress Element -->
+
+                        <!-- Progress Element -->
+                        <div class="progress-labeled">
+                            <div class="title"> Documentation <span>60%</span></div>
+                            <div class="progress">
+                                <div style="width: 60%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60"
+                                     role="progressbar" class="progress-bar progress-bar-warning"></div>
+                            </div>
+                        </div>
+                        <!-- /Progress Element -->
+
+                        <!-- Progress Element -->
+                        <div class="progress-labeled no-mb">
+                            <div class="title"> Release <span>90%</span></div>
+                            <div class="progress">
+                                <div style="width: 90%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="90"
+                                     role="progressbar" class="progress-bar progress-bar-danger"></div>
+                            </div>
+                        </div>
+                        <!-- /Progress Element -->
+
+                    </div>
+                    <!-- /Panel Body -->
+
+                </div>
+                <!-- /PANEL: Progress -->
+
+                <!-- PANEL: Browsers -->
+                <div class="panel">
+
+                    <!-- Panel Body -->
+                    <div class="panel-body">
+
+                        <!-- PANEL-GROUP: Browsers -->
+                        <div class="panel-group no-mb" id="accordion" role="tablist" aria-multiselectable="true">
+
+                            <!-- PANEL: This Week -->
+                            <div class="panel">
+
+                                <!-- Panel Heading -->
+                                <div class="panel-heading" role="tab" id="browsers-this-week-heading">
+
+                                    <!-- Panel Title -->
+                                    <div class="panel-title">
+                                        <a href="#browsers-this-week" role="button" data-toggle="collapse"
+                                           data-parent="#accordion" aria-expanded="true" aria-controls="browsers-this-week">
+
+                                            This Week
+                                        </a>
+                                    </div>
+                                    <!-- /Panel Title -->
+
+                                </div>
+                                <!-- /Panel Heading -->
+
+                                <!-- COLLAPSE: This Week -->
+                                <div id="browsers-this-week" class="panel-collapse collapse in" role="tabpanel"
+                                     aria-labelledby="browsers-this-week-heading">
+
+                                    <!-- Panel Body -->
+                                    <div class="panel-body">
+
+                                        <!-- TABLE: This Week -->
+                                        <table class="table table-responsive no-mb">
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Google Chrome</td>
+                                                <td>7859</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Mozilla Firefox</td>
+                                                <td>7409</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Safari</td>
+                                                <td>3498</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Internet Explorer</td>
+                                                <td>1089</td>
+                                            </tr>
+                                        </table>
+                                        <!-- /TABLE: This Week -->
+
+                                    </div>
+                                    <!-- /Panel Body -->
+
+                                </div>
+                                <!-- /COLLAPSE: This Week -->
+
+                            </div>
+                            <!-- PANEL: This Week -->
+
+                            <!-- PANEL: This Month -->
+                            <div class="panel">
+
+                                <!-- Panel Heading -->
+                                <div class="panel-heading" role="tab" id="browsers-this-month-heading">
+
+                                    <!-- Panel Title -->
+                                    <div class="panel-title">
+                                        <a href="#browsers-this-month" class="collapsed" role="button" data-toggle="collapse"
+                                           data-parent="#accordion" aria-expanded="true" aria-controls="browsers-this-month">
+
+                                            This Month
+                                        </a>
+                                    </div>
+                                    <!-- /Panel Title -->
+
+                                </div>
+                                <!-- /Panel Heading -->
+
+                                <!-- COLLAPSE: This Week -->
+                                <div id="browsers-this-month" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="browsers-this-month-heading">
+
+                                    <!-- Panel Body -->
+                                    <div class="panel-body">
+
+                                        <!-- TABLE: This Month -->
+                                        <table class="table table-responsive no-mb">
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Google Chrome</td>
+                                                <td>78059</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Mozilla Firefox</td>
+                                                <td>70409</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Safari</td>
+                                                <td>34098</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Internet Explorer</td>
+                                                <td>10809</td>
+                                            </tr>
+                                        </table>
+                                        <!-- /TABLE: This Month -->
+
+                                    </div>
+                                    <!-- /Panel Body -->
+
+                                </div>
+                                <!-- /COLLAPSE: This Week -->
+
+                            </div>
+                            <!-- PANEL: This Month -->
+
+                        </div>
+                        <!-- /PANEL-GROUP: Browsers -->
+
+                    </div>
+                    <!-- /Panel Body -->
+
+                </div>
+                <!-- /PANEL: Browsers -->
+
+            </div>
+            <!-- /Right Side -->
+
+        </div>
