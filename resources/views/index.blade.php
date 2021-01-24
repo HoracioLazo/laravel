@@ -78,7 +78,7 @@
   <section id="newsSection">
     <div class="row">
       <div class="col-lg-12 col-md-12">
-        <div class="latest_newsarea"> <span>Ultimas Titulars</span>
+        <div class="latest_newsarea"> <span>Ultimas Titulares</span>
           <ul id="ticker01" class="news_sticker">
             <li><a href="#"><img src="{{asset ('images/news_thumbnail3.jpg') }}" alt="">Primera Titular</a></li>
             <li><a href="#"><img src="{{asset ('images/news_thumbnail3.jpg') }}" alt="">Segunda Titulars</a></li>
@@ -361,7 +361,7 @@
       <div class="col-lg-4 col-md-4 col-sm-4">
         <aside class="right_content">
           <div class="single_sidebar">
-            <h2><span>Post Destacados</span></h2>
+            <h2><span>Post más comentados</span></h2>
             <ul class="spost_nav">
               <li>
                 <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
