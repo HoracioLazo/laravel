@@ -58,7 +58,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav main_nav">
           <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
-          <li><a href="#">Titulars</a></li>
+          <li><a href="#">Titulares</a></li>
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Diócesis</a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="#">Parroquia</a></li>

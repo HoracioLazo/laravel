@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('contact', function () {
+Route::get('contacto', function () {
     return view('pages/contact');
 });
+
+// Route::get('page', function () {
+//     return view('pages/single_page');
+// });
+Route::get('page', [PostController::class, 'single'])->name('pages.single_page');
+
+
+
