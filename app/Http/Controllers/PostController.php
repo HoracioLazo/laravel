@@ -13,12 +13,10 @@ class PostController extends Controller
 
     }
 
-    public function sasaide(){
-        $posteas = Post::where('status', '1')->orderBy('id','desc')->take(2)->get();
-        return view('page.single_page', compact('posts'));
+    public function asaide(){
+        $posteas = Post::where('status', '1')->orderBy('id','desc')->take(4)->get();
+        return view('components.aside', compact('posteas'));
 
-        // $posteas = Post::where('status', 1)->paginate(2);
-        // return view('pages.single_page', compact('posts'));
 
     }
 

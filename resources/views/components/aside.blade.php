@@ -1,15 +1,17 @@
 <aside class="right_content">
     <div class="single_sidebar">
       <h2><span>ÚLTIMA PUBLICACIÓN</span></h2>
+      @foreach ($posteas as $postea)
       <ul class="spost_nav">
 
         <li>
-          <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src=""> </a>
-            <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
+          <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{{ Storage::url( $postea->image->url ) }}"> </a>
+            <div class="media-body"> <a href="single_page.html" class="catg_title">{{ $postea->name }}</a> </div>
           </div>
         </li>
 
       </ul>
+      @endforeach
     </div>
     <div class="single_sidebar">
       <ul class="nav nav-tabs" role="tablist">

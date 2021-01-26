@@ -21,10 +21,9 @@ Route::get('contacto', function () {
     return view('pages/contact');
 });
 
-// Route::get('page', function () {
-//     return view('pages/single_page');
-// });
+
 Route::get('page', [PostController::class, 'single'])->name('pages.single_page');
+Route::get('asaide', [PostController::class, 'asaide'])->name('components.aside');
 
 
 
