@@ -3,23 +3,28 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+
 
 Route::get('/', function () {
     return view('index');
 });
-Route::get('contacto', function () {
-    return view('pages/contact');
-});
+// Route::get('web', function () {
+//     return view('welcome');
+// });
+
+// Route::get('app', function () {
+//     return view('layouts/footers/footers');
+// });
+// // Route::get('prueba', function () {
+// //     return view('prueba');
+// // });
+// Route::get('single', function () {
+//     return view('pages/single_page');
+// });
+
+// Route::get('contact', function () {
+//     return view('pages/404');
+// });
 
 
 Route::get('page', [PostController::class, 'single'])->name('pages.single_page');
