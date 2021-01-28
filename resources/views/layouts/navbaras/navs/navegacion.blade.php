@@ -6,7 +6,7 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav main_nav">
-            <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span
+            <li class="active"><a href="{{ url('/') }}"><span class="fa fa-home desktop-home"></span><span
                         class="mobile-show">Home</span></a></li>
             <li><a href="#">Titulares</a></li>
             <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
@@ -21,8 +21,8 @@
             </li>
             <li><a href="#">Multimedia</a></li>
             <li><a href="#">Cultura</a></li>
-            <li><a href="pages/contact">Contacto</a></li>
-            <li><a href="pages/404.html">Acceder</a></li>
+            <li><a href="{{ url('contacto') }}">Contacto</a></li>
+            <li><a href="{{ url('/') }}">Acceder</a></li>
         </ul>
     </div>
 </nav>

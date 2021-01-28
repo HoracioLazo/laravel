@@ -17,11 +17,11 @@
     </ul>
     <div class="social_area">
       <ul class="social_nav">
-        <li class="facebook"><a href="#"></a></li>
-        <li class="twitter"><a href="#"></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/horacio.lazo.7" target="_blank"></a></li>
+        <li class="twitter"><a href="https://twitter.com/horaciolazo1" target="_blank"></a></li>
         <li class="googleplus"><a href="#"></a></li>
-        <li class="youtube"><a href="#"></a></li>
-        <li class="mail"><a href="#"></a></li>
+        <li class="youtube"><a href="https://www.youtube.com/channel/UC7Q_wWXI-fpc9yb1U-7R8QA"></a></li>
+        <li class="mail"><a href="mailto:horaciolazo@gmail.com"></a></li>
       </ul>
     </div>
   </div>

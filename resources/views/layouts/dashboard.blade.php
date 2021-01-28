@@ -57,9 +57,6 @@
             </div>
         </section>
         @show
-
-
-        {{-- aqui ira el contendio principal el cual esta en la vista contenido--}}
         <section id="contentSection">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-8">
@@ -77,24 +74,16 @@
 
 
 
-    </div>
-
-
-    {{-- aqui esta el footers --}}
-    @section('footer')
-    <div class="container">
-        @include('layouts.footers.footers')
-    </div>
-    @show
-
-    <script src="{{asset ('assets/js/jquery.min.js') }}"></script>
-    <script src="{{asset ('assets/js/wow.min.js') }}"></script>
-    <script src="{{asset ('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{asset ('assets/js/slick.min.js') }}"></script>
-    <script src="{{asset ('assets/js/jquery.li-scroller.1.0.js') }}"></script>
-    <script src="{{asset ('assets/js/jquery.newsTicker.min.js') }}"></script>
-    <script src="{{asset ('assets/js/jquery.fancybox.pack.js') }}"></script>
-    <script src="{{asset ('assets/js/custom.js') }}"></script>
+        {{-- aqui esta el footers --}}
+        <div>
+            @include('layouts.footers.footers')
+        </div>
+        <script src="{{asset ('assets/js/jquery.min.js') }}"></script>
+        <script src="{{asset ('assets/js/wow.min.js') }}"></script>
+        <script src="{{asset ('assets/js/bootstrap.min.js') }}"></script>
+        <script src="{{asset ('assets/js/slick.min.js') }}"></script>
+        <script src="{{asset ('assets/js/jquery.li-scroller.1.0.js') }}"></script>
+        <script src="{{asset ('assets/js/jquery.newsTicker.min.js') }}"></script>
+        <script src="{{asset ('assets/js/jquery.fancybox.pack.js') }}"></script>
+        <script src="{{asset ('assets/js/custom.js') }}"></script>
 </body>
-
-</html>

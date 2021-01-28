@@ -5,10 +5,9 @@ use App\Http\Controllers\PostController;
 
 
 
-Route::get('/', function () {
-    return view('layouts/themes.index');
+Route::get('/', [PostController::class, 'index'])->name('pages.contenido');
+
+Route::get('contacto', function () {
+    return view('pages/contact');
 });
-
-
-
 

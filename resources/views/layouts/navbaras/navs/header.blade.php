@@ -3,8 +3,8 @@
         <div class="header_top">
             <div class="header_top_left">
                 <ul class="top_nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/contact.html">Contacto</a></li>
+                    <li><a href="{{ url('/') }}">Home</a></li>
+                    <li><a href="{{ url('contacto') }}">Contacto</a></li>
                 </ul>
             </div>
             <div class="header_top_right">

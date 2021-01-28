@@ -7,17 +7,9 @@ use App\Models\Post;
 
 class PostController extends Controller
 {
-    public function single(){
-        $posts = Post::where('status', '1')->orderBy('id','desc')->take(9)->get();
-        return view('pages.single_page', compact('posts'));
-
-    }
-
-    public function asaide(){
-        $posteas = Post::where('status', '1')->orderBy('id','desc')->take(4)->get();
-        return view('pages.single_page', compact('posteas'));
-
-
+    public function index(){
+        $posts = Post::where('status', 2)->latest('id')->paginate(5);
+        return view('pages.contenido', compact('posts'));
     }
 
 
