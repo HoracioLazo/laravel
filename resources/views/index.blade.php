@@ -49,7 +49,7 @@
     <section id="sliderSection">
         <div class="row">
             {{-- esto es el carrusel superior --}}
-            <div class="col-lg-8 col-md-8 col-sm-8">
+            {{-- <div class="col-lg-8 col-md-8 col-sm-8">
                 <div class="slick_slider">
                     <div class="single_iteam"> <a href="pages/single_page.html"> <img src="assets/images/belen.png"
                                 alt=""></a>
@@ -87,12 +87,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             {{-- aqui termina carrusel superior --}}
 
 
-            {{-- Aqui empieza el slaide derecha --}}
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            {{-- Aqui empieza el slaide derecha convertir en una vista--}}
+            {{-- <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="latest_post">
                     <h2><span>PUBLICACIÓN</span></h2>
                     <div class="latest_post_container">
@@ -137,13 +137,14 @@
                         <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
+    {{-- parte del contenido --}}
     <section id="contentSection">
         <div class="row">
-             {{-- esto es parte del contenido --}}
-            <div class="col-lg-8 col-md-8 col-sm-8">
+
+            {{-- <div class="col-lg-8 col-md-8 col-sm-8">
                 <div class="left_content">
                     <div class="single_post_content">
                         <h2><span>Los Titulares</span></h2>
@@ -297,16 +298,17 @@
 
                     </div>
                 </div>
-            </div>
+            </div> --}}
             {{-- aqui llega el contenido --}}
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            {{-- <div class="col-lg-4 col-md-4 col-sm-4">
                 @include('layouts.navbaras.sidebar')
-            </div>
+            </div> --}}
         </div>
     </section>
-    <div>
 
-    @include('layouts.footers.footers')
+
+    <div>
+      @include('layouts.footers.footers')
     </div>
     <script src="{{asset ('assets/js/jquery.min.js') }}"></script>
     <script src="{{asset ('assets/js/wow.min.js') }}"></script>

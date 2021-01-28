@@ -15,7 +15,7 @@ class PostController extends Controller
 
     public function asaide(){
         $posteas = Post::where('status', '1')->orderBy('id','desc')->take(4)->get();
-        return view('components.aside', compact('posteas'));
+        return view('pages.single_page', compact('posteas'));
 
 
     }
